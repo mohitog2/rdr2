@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="arthur.css">
+</head>
+<body>
+        <div class="container">
+            <h1 class="head">Arthur Morgan</h1>
+            <img class="image" src="https://th.bing.com/th/id/OIP.HGkHtfLdIaFZX5v9YM8G4wAAAA?w=188&h=499&rs=1&pid=ImgDetMain"/>
+            <p class="text">Height: 5 feet 10 inches. <br>Weight: 180lbs.<br> Gang: Van Der Linde.</p>
+        </div>
+        <div class="about">
+            <p class="information">Arthur Morgan is the central protagonist of *Red Dead Redemption 2* (RDR2), set in 1899 during the decline of the Wild
+            West. He is a senior member of the Van der Linde gang, led by Dutch Van der Linde, and serves as a loyal enforcer.
+            Arthur is a complex character, embodying both the ruthless traits of an outlaw and a deep capacity for reflection and
+            morality.
+            </p>
+        </div>
+        <script>
+            const container = document.querySelector('.container');
+                container.addEventListener('click', () => {
+                    container.classList.toggle('show-text');
+                });
+        </script>
+</body>
+</html>
